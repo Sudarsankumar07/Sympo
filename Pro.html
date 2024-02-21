@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <title>KIOT SYMPOSIUM</title>
+    <style>
+    *{
+        text-decoration: none;
+        border: 0;
+        margin: 0;
+        background-color: black;
+      }
+    .navbar{
+        background-color: black;
+        font-family: monospace;
+        padding-right: 15px;
+        padding-left: 15px;
+        height: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+    .adnavbar{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+      hr {
+        border: 1px solid white;
+      }
+    .logo a{
+        font-size: x-large;
+        font-weight: 600px;
+        color: aliceblue;
+        justify-content: space-between;
+        padding-right: 600px;
+      }
+     li{
+        list-style: none;
+        display: inline-block;
+      }
+     li a{
+        color: aliceblue;
+        font-size: large;
+        font-weight: bold;
+        margin-right: 35px;
+    }
+     li a:hover{
+        text-decoration: underline;
+        font-size: x-large;
+    }
+    #videoList{
+        font-size: 26px;
+        font-weight: 900;
+        font-family: cursive;
+        text-align: center;
+    }
+    .video{
+        background-size: cover;
+        height: fit-content;
+        width: fit-content;
+        margin-bottom: 50px;
+        overflow: hidden;
+        box-shadow: 0px 20px 20px #0000003b;
+    }
+    .video .thevideo{
+        width: 100%;
+    }
+    video::-webkit-media-controls {
+        display: none !important;
+    }
+    footer{
+      background-color: black;
+      border: 5px solid black;
+    }
+    footer h1{
+      text-align: center;
+      font-family: monospace;
+      color: white;
+      font-size: x-large;
+      text-shadow: .5px .2px white;
+    }
+    footer h2{
+      text-align: center;
+      font-family: monospace;
+      color: white;
+    }
+    footer h3{
+      text-align: center;
+      font-family: monospace;
+      color: white;
+      font-size: medium;
+      margin-bottom: 20px;
+    }
+    .Logo{
+      text-align: center;
+      color: white;
+      font-size: x-large;
+    }
+    .Logo a{
+      align-items: center;
+      color: white;
+      font-size: x-large;
+      justify-content: space-between;
+    }
+    .Logo h2{
+      font-size: x-large;
+      margin-bottom: 10px;
+    }
+    .Logo li{
+      margin-right: 35px;
+      display: flex;
+      list-style: none;
+      display: inline-block;
+      align-items: center;
+      justify-content: space-between;
+      margin-top: 15px;
+    }
+    .form{
+      width: 700px;
+      height: 500px;
+      margin: 7vh auto 5vh auto;
+      background-color: white;
+      border-radius: 15px;
+      padding: 30px;
+      box-shadow: 2px 2px 5px blanchedalmond;
+    }
+    .form h1{
+      color: white;
+      background-color: black;
+      font-family: monospace;
+      font-size: large;
+      border-radius: 10px;
+      text-align: center;
+      height: 30px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .form pre{
+      background-color: white;
+      font-family: monospace;
+      align-items: center;
+    }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+      <div class="adnavbar">
+        <div class="logo" ><a href="https://kiot.ac.in/">KNOWLEDGE INSTITUTION OF TECHNOLOGY</a></div>
+        <ul>
+          <li><a href="#">HOME</a></li>
+          <li><a href="#">ABOUT</a></li>
+          <li><a href="#">EVENTS</a></li>
+          <li><a href="#">CONTACT US</a></li>
+        </ul>
+      </div>
+    </nav>
+    <hr>
+    <div id="videoList">
+      <div class="video">
+          <video class="thevideo" loop preload="auto" autoplay>
+              <source src="AI-DS SYMPOSIUM.mp4" type="video/mp4">
+          </video>
+      </div>
+  </div>
+  <div class="form">
+    <h1>KNOWLEDGE INSTITUTION OF TECHNOLOGY</h1>
+    <pre>
+      KIOT Trust is the right combination of 22 Academicians in Engineering, 
+      7 working Professionals in India and Abroad and 15 Budding First-Generation
+      Entrepreneurs with a strong acumen to achieve greater heights in life. 
+      Most of the promoters have rich experience in Teaching, 
+      Research and Administration of Engineering Institutions with National and International Exposure.
+      The composition of the team itself is a testimony to the Quality of Education offered at KIOT.</pre>
+  </div>
+  <hr>
+  <footer id="footer">
+    <h1>KNOWLEDGE INSTITUTION OF TECHNOLOGY</h1>
+    <br>
+    <div class="address">
+      <p></p>
+    </div>
+    <div class="Logo">
+        <h2>CONATCT US</h2>
+        <h3><pre>Address : Knowledge Institute of Technology
+          KIOT-Campus, NH544, Kakapalayam,
+          Salem, Tamilnadu – 637504 India.</pre></h3>
+        <h3>Phone Number : 7448440471</h3>
+        <hr>
+        <ul>
+        <li><a href="#" ><i class="fa-brands fa-instagram"></i></a></li>
+        <li><a href='#'><i class="fa-brands fa-whatsapp"></i></a></li>
+        <li><a href="#"><i class="fa-brands fa-telegram"></i></a></li>
+       </ul>
+    </div>
+</footer>
+
+<script src="https://cpwebassets.codepen.io/assets/common/stopExecutionOnTimeout-1b93190375e9ccc259df3a57c1abc0e64599724ae30d7ea4c6877eb615f89387.js"></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+
+<script id="rendered-js">
+  var figure = $(".video").hover(hoverVideo, hideVideo);
+
+  function hoverVideo(e) {
+      $('video', this).get(0).play();
+  }
+
+  function hideVideo(e) {
+      $('video', this).get(0).pause();
+  }
+  // # sourceURL=pen.js
+</script>
+</body>
+</html>
